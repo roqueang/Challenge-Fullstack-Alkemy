@@ -13,6 +13,11 @@ app.get ('/contact',(req, res)=>{
     res.send('Contact me');
 });
 
-app.listen(3000, () => {
-    console.log('Server on port http://localhost:3000/ ');
+app.get ('/test',(req, res)=>{
+    res.send('<h1>TEST</H1> ');
+});
+
+
+app.listen(5000, () => {
+    console.log('Server on port http://localhost:5000/ ');
 });
