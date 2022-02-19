@@ -1,25 +1,16 @@
 {
-  "name": "Challenge-FullStack-Alkemy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15"
-  },
-  "devDependencies": {},
+  "name": "challenge-fullstack-alkemy",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/roqueang/Challenge-FullStack-Alkemy.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/roqueang/Challenge-FullStack-Alkemy/issues"
-  },
-  "homepage": "https://github.com/roqueang/Challenge-FullStack-Alkemy#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
